@@ -1,0 +1,72 @@
+*{
+    --Cor_clara:white;
+    --cor_escura:black;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    background: pink;
+    font-size: 20px;
+    background-image: url(file/Medidor-de-divergencia-steins-gate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Place_date_and_Goodatnight{
+    background: white;
+    border:  1px solid black;
+    box-shadow: 5px 9px 20px  1px black;
+     width: 700px;
+    
+}
+
+.Place_date_and_Goodatnight p{
+    text-align: center;
+}
+
+.Place_date_and_Goodatnight div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.place_hour{
+    background: white;
+    border: 1px solid black;
+    box-shadow: 5px 9px 20px 1px var(--cor_escura);
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.place_hour div{
+    font-size: 50px;
+    background: var(--cor_escura);
+    color: var(--Cor_clara);
+    height: auto;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+    
+}
