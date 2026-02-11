@@ -1,0 +1,72 @@
+*{
+   padding: 0;
+    margin: 0;
+    
+}
+
+:root{
+  --cor-branca: rgb(255, 255, 255);
+  --cor-preta: rgb(0,0,0);
+  --cor-verde:rgb(15, 209, 25);
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+
+.Div-tip{
+  height: auto;
+  max-height: 70rem;
+  padding: 6px;
+  width: 30rem;
+  background: var(--cor-branca);
+  color: var(--cor-preta);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  z-index: 5;
+ font-size: larger;
+}
+
+Div_image{
+  height: 10rem;
+  width: 10rem;
+  background: none;
+  
+}
+
+.image{
+   height: 10rem;
+  width: 10rem;
+   
+}
+
+div p {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+div button{
+  background: var(--cor-verde);
+  color: var(--cor-branca);
+  border: none;
+  width: 400px;
+  font-size: larger;
+  border-radius: 5px;
+}
+
+div input{
+  border: 1px solid black;
+  width: 440px;
+  height: 30px;
+  border-radius: 5px;
+}
