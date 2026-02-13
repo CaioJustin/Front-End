@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: rgb(63, 5, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#place{
+    height: 10rem;
+    width: 30rem;
+    background: rgb(255, 255, 255);
+    height: 30rem;
+    max-height: 100rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+#info_month {
+    background: rgb(218, 62, 62);
+    margin: 0px;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+h2{
+    font-size: larger;
+}
+
+.Info{
+    margin-top: 2rem;
+    height: auto;
+    max-height: 300px;
+    align-items: center;
+    flex-direction: column;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Info #day{
+    text-align: center;
+    font-size: 2em;
+    color: gray;
+}
+
+.Info #day_number{
+    text-align: center;
+    font-size: 10em;
+}
+
+.Info #year{
+    text-align: center;
+    font-size: 2em;
+    color: gray;
+    
+}
